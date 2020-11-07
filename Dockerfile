@@ -15,5 +15,5 @@ EXPOSE 5000/tcp
 
 #CMD [ "python", "./portfolio.py" ]
 
-CMD [ "flask", "run" ]
+CMD [ "flask", "run", "--host=0.0.0.0" ]
 
